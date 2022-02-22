@@ -46,6 +46,11 @@
       margin-right:  15px;
       justify-content: flex-start;
     }
+    .player-time-marks {
+      color: white;
+      font-size: 21px;
+      line-height: 1;
+    }
   </style>
 
 </head>
@@ -69,6 +74,12 @@
       <button class="player-button player-button-left-align js-mute-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
+    
+      <div class=player-time-marks>
+        <span class="js-current-time"></span>
+        —
+        <span class="js-duration"></span>
+      </div>
 
       <div></div>
 
