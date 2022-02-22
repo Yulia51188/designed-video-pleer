@@ -60,6 +60,13 @@
       width: 100%;
       margin-right: 4px;
     }
+    .player-progress{
+      background-color: grey;
+      width:100%;
+    }
+    .player-progress-slider {
+      background-color: red;
+    }
   </style>
 
 </head>
@@ -86,8 +93,8 @@
     
       <div class=player-time-marks>
         <span class="js-current-time"></span>
-        <div>
-          -
+        <div class=" player-progress js-progress">
+          <div class="player-progress-slider js-progress-slider" >Прогресс</div>
         </div>
         <span class="js-duration"></span>
       </div>
