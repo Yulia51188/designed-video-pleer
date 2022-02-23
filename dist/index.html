@@ -74,6 +74,18 @@
       border-radius: 1.5px;
       margin-left: 2px;
       margin-right: 2px;
+      align-self: center;
+    }
+    .player-slider-marker {
+      height: 8px;
+      width: 8px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      border-style: solid;
+      border-width: 3px;
+      border-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
   </style>
 
@@ -103,6 +115,7 @@
         <span class="js-current-time"></span>
         <div class=" player-progress js-progress">
           <div class="player-progress-slider js-progress-slider"></div>
+          <span class="player-slider-marker"></span>
         </div>
         <span class="js-duration"></span>
       </div>
